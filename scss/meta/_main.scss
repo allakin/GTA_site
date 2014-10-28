@@ -1,0 +1,27 @@
+.bg-button{
+  background: url("../img/bg-button.jpg")no-repeat top left;
+  width: 100%;
+  height: 32px;
+  display: block;
+  margin-left: 26px;
+  margin-top: 17px;
+  position: relative;
+  &:hover{
+    background: url("../img/bg-button-hover.jpg") no-repeat top left;
+    width: 100%;
+    height: 32px;
+    margin-left: 26px;
+    margin-top: 17px;
+  }
+  .text-button{
+    font-size: 12px;
+    font-family: $verdana;
+    color: $white;
+    position: absolute;
+    margin: 10px 58px;
+  }
+  &:hover .text-button{
+    text-decoration: none;
+    color: $white;
+  }
+}

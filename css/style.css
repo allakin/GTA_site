@@ -1,0 +1,133 @@
+body {
+  background: #e1e1e1;
+}
+
+a:active,
+a:focus,
+button:active,
+button:focus,
+input:active,
+input:focus,
+textarea:focus,
+textarea:active {
+  outline: none !important;
+}
+
+.container {
+  width: 1036px;
+  margin: 0 auto;
+  position: relative;
+}
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.col-xs-1 {
+  width: 8.3333333333%;
+}
+
+.col-xs-2 {
+  width: 16.6666666666%;
+}
+
+.col-xs-3 {
+  width: 25%;
+}
+
+.col-xs-4 {
+  width: 33.3333333333%;
+}
+
+.col-xs-5 {
+  width: 41.6666666667%;
+}
+
+.col-xs-6 {
+  width: 50%;
+}
+
+.col-xs-7 {
+  width: 58.3333333333%;
+}
+
+.col-xs-8 {
+  width: 66.6666666666%;
+}
+
+.col-xs-9 {
+  width: 75%;
+}
+
+.col-xs-10 {
+  width: 83.3333333333%;
+}
+
+.col-xs-11 {
+  width: 91.6666666666%;
+}
+
+.col-xs-12 {
+  width: 100%;
+}
+
+.bg-button {
+  background: url("../img/bg-button.jpg") no-repeat top left;
+  width: 100%;
+  height: 32px;
+  display: block;
+  margin-left: 26px;
+  margin-top: 17px;
+  position: relative;
+}
+.bg-button:hover {
+  background: url("../img/bg-button-hover.jpg") no-repeat top left;
+  width: 100%;
+  height: 32px;
+  margin-left: 26px;
+  margin-top: 17px;
+}
+.bg-button .text-button {
+  font-size: 12px;
+  font-family: "Verdana Regular", sans-serif;
+  color: #fff;
+  position: absolute;
+  margin: 10px 58px;
+}
+.bg-button:hover .text-button {
+  text-decoration: none;
+  color: #fff;
+}
